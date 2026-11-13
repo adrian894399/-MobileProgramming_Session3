@@ -13,8 +13,22 @@
 
 | Tugas | Topik | Folder |
 |---|---|---|
-| Tugas 2 | Aplikasi WebView Sederhana (MIT App Inventor) | [`Tugas2-AplikasiSederhana`](./Tugas2-AplikasiSederhana) |
-| Tugas 3 | Implementasi WebView dengan Fabric React Native | [`Tugas3-WebView`](./Tugas3-WebView) |
+| Tugas 2 | Aplikasi WebView Sederhana (MIT App Inventor) | [`Tugas_mobileprogaming_session2`](./Tugas_mobileprogaming_session2) |
+| Tugas 3 | Implementasi WebView dengan Fabric React Native | Proyek React Native di root repository (`App.tsx`, `android/`, `ios/`) |
+
+### Struktur Repository
+
+```
+pemogramanmobileAdrian/
+├── Tugas_mobileprogaming_session2/   # Tugas 2 (MIT App Inventor)
+│   └── Daniel_tugas1_mobile.aia
+├── screenshots/                      # Gambar tampilan Tugas 2
+├── android/                          # Tugas 3 (React Native)
+├── ios/
+├── App.tsx
+├── package.json
+└── README.md
+```
 
 ---
 
@@ -22,7 +36,7 @@
 
 ### Deskripsi
 
-Praktikum 2 membuat aplikasi mobile sederhana bernama **Kelompok 2** menggunakan MIT App Inventor. Aplikasi menampilkan halaman web eksternal (website Universitas Langlangbuana) langsung di dalam aplikasi Android menggunakan komponen WebView, dilengkapi tombol navigasi **Home** dan **Refresh**. Hasilnya berupa file proyek (`.aia`) dan file instalasi Android (`.apk`).
+Praktikum 2 membuat aplikasi mobile sederhana bernama **Kelompok 2** menggunakan MIT App Inventor. Aplikasi menampilkan halaman web eksternal (website Universitas Langlangbuana) langsung di dalam aplikasi Android menggunakan komponen WebView, dilengkapi tombol navigasi **Home** dan **Refresh**. Hasilnya berupa file proyek App Inventor (`.aia`) yang dapat diimpor kembali ke MIT App Inventor.
 
 ### Fitur Aplikasi
 
@@ -30,7 +44,7 @@ Praktikum 2 membuat aplikasi mobile sederhana bernama **Kelompok 2** menggunakan
 - Tombol **Home** untuk kembali ke halaman awal.
 - Tombol **Refresh** untuk memuat ulang halaman yang sedang dibuka.
 - Label identitas kelompok (Adrian, Daniel, Miraj) di bagian atas layar.
-- Dapat digunakan langsung di HP Android lewat file `.apk` tanpa membuka browser terpisah.
+- Dapat dijalankan di HP Android (lewat aplikasi MIT AI2 Companion atau build APK dari App Inventor) tanpa membuka browser terpisah.
 
 ### Komponen yang Digunakan
 
@@ -55,15 +69,14 @@ Praktikum 2 membuat aplikasi mobile sederhana bernama **Kelompok 2** menggunakan
 
 ### Isi Folder
 
-- `aplikasi_sederhana (1).aia` – file proyek App Inventor
-- `aplikasi_sederhana.apk` – file instalasi aplikasi Android
-- `Mobile-progamming-1` – materi/berkas pendukung
+- `Tugas_mobileprogaming_session2/Daniel_tugas1_mobile.aia` – file proyek App Inventor
 - `screenshots/` – gambar tampilan aplikasi
 
 ### Cara Menjalankan
 
-1. Salin file `.apk` ke HP Android, lalu instal (izinkan instalasi dari sumber tidak dikenal).
-2. Atau impor file `.aia` ke [MIT App Inventor](https://appinventor.mit.edu/) lewat menu **Projects → Import project (.aia)**.
+1. Buka [MIT App Inventor](https://appinventor.mit.edu/) dan login dengan akun Google.
+2. Pilih menu **Projects → Import project (.aia) from my computer**, lalu pilih file `Daniel_tugas1_mobile.aia`.
+3. Jalankan lewat **Connect → AI Companion** (scan QR code dengan aplikasi MIT AI2 Companion di HP), atau buat APK lewat **Build → Android App (.apk)**.
 
 ---
 
@@ -174,7 +187,7 @@ Tunggu hingga proses build dan instalasi selesai. Aplikasi akan terbuka otomatis
 
 ## Kesimpulan
 
-**Tugas 2:** Melalui praktikum ini, mahasiswa memahami pembuatan aplikasi mobile sederhana dengan MIT App Inventor, mulai dari merancang antarmuka dengan komponen visual, menggunakan WebView untuk menampilkan halaman web, hingga menambahkan tombol Home dan Refresh serta menghasilkan file APK.
+**Tugas 2:** Melalui praktikum ini, mahasiswa memahami pembuatan aplikasi mobile sederhana dengan MIT App Inventor, mulai dari merancang antarmuka dengan komponen visual, menggunakan WebView untuk menampilkan halaman web, hingga menambahkan tombol Home dan Refresh serta menjalankannya pada perangkat Android.
 
 **Tugas 3:** Penggunaan WebView pada React Native memungkinkan aplikasi mobile menampilkan halaman web eksternal secara langsung tanpa membuka browser terpisah. Library `react-native-webview` mempermudah integrasi halaman web ke dalam aplikasi, dan pengaktifan New Architecture (Fabric) memberikan dukungan sistem rendering React Native yang lebih modern. Mahasiswa memahami instalasi dependensi, konfigurasi Fabric, implementasi WebView, serta proses menjalankan aplikasi pada perangkat Android maupun emulator.
 
