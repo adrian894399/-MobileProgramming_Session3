@@ -1,4 +1,4 @@
-## TUGAS 2 – IMPLEMENTASI WEBVIEW DENGAN FABRIC REACT NATIVE
+## TUGAS 3 – IMPLEMENTASI WEBVIEW DENGAN FABRIC REACT NATIVE
 Identitas Mahasiswa
 Nama: Adrian Akbar Firdaus
 NIM: 41155050240017
@@ -6,7 +6,7 @@ Kelas: Informatika A1
 Mata Kuliah: Pemrograman Mobile
 Deskripsi
 
-## Praktikum 2 ini bertujuan untuk mengimplementasikan tampilan web interaktif menggunakan komponen WebView pada React Native dengan mengaktifkan arsitektur baru (Fabric).
+## Praktikum 3 ini bertujuan untuk mengimplementasikan tampilan web interaktif menggunakan komponen WebView pada React Native dengan mengaktifkan arsitektur baru (Fabric).
 
 Aplikasi ini memungkinkan pengguna menampilkan dan mengakses halaman web eksternal secara langsung melalui aplikasi Android tanpa harus membuka browser secara terpisah.
 
