@@ -65,7 +65,7 @@ Praktikum 2 membuat aplikasi mobile sederhana bernama **Kelompok 2** menggunakan
 
 **Tampilan aplikasi di HP Android**
 
-<img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/fb817474-53a0-41d8-b77c-47c3beb970ef" />
+<img width="300" height="750" alt="image" src="https://github.com/user-attachments/assets/fb817474-53a0-41d8-b77c-47c3beb970ef" />
 
 ### Isi Folder
 
