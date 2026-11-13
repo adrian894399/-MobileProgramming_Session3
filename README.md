@@ -61,11 +61,11 @@ Praktikum 2 membuat aplikasi mobile sederhana bernama **Kelompok 2** menggunakan
 
 **Tampilan desain di MIT App Inventor**
 
-<img src="./screenshots/tugas2-app-inventor-desain.png" alt="Desain aplikasi di MIT App Inventor" width="600" />
+<img width="1366" height="711" alt="image" src="https://github.com/user-attachments/assets/bdbb6295-7c6c-4306-b6f8-f5a27ff33c60" />
 
 **Tampilan aplikasi di HP Android**
 
-<img src="./screenshots/tugas2-hasil-aplikasi.png" alt="Hasil aplikasi di HP Android" width="300" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/fb817474-53a0-41d8-b77c-47c3beb970ef" />
 
 ### Isi Folder
 
